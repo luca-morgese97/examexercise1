@@ -12,7 +12,7 @@ app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
 							//taskId, assignementId, workerId, assignementResult
-let exam = new Assignement('bananaTask', 'bananaAssignement', 'bananaWorker', 'bananaResult');
+let exam = new Assignement('bananaTask', 'bananaAssignement', 'bananaWorker', {value:'bananaResult'});
 let exams = [];
 let resource = {nextId: 0, exams}
 
