@@ -13,7 +13,7 @@ let exams = [];
 exams.push(exam);
 
 app.get('/', function(req, res) {
-	res.json({body: "Hello, world!"});
+	res.json({body: "Hello there!"});
 });
 
 app.get('/assignements', function(req, res) {
